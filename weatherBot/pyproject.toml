@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "Weather Bot"
+version = "0.1.0"
+description = "Discord bot for weather updates"
+authors = ["Sakshi Shinde <sakshishinde931@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+discord-py = "^2.3.2"
+watchdog = "^4.0.0"
+python-dotenv = "^1.0.1"
+openai = "^1.16.2"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
